@@ -1,0 +1,4 @@
+from discord import SyncWebhook
+
+webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/940214930819391498/yd6SnEPZn9hFohYUceNfohMrHSIkTn199tTiAH_O59UHZzbnCyIhKiUapsyr1bZBxOAw")
+webhook.send("Vas a muy buen ritmo")
